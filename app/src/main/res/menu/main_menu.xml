@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/btmhome"
+        android:iconTint="@color/white"
+        android:title="@string/homecaps" />
+
+    <item
+        android:id="@+id/playFragment"
+        android:icon="@drawable/btmplaypause"
+        android:iconTint="@color/white"
+        android:title="@string/play" />
+
+    <item
+        android:id="@+id/editFragment"
+        android:icon="@drawable/btmedit"
+        android:iconTint="@color/white"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/rankFragment"
+        android:icon="@drawable/btmrank"
+        android:iconTint="@color/white"
+        android:title="@string/rank" />
+
+</menu>

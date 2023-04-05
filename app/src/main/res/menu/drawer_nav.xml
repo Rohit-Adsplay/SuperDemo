@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/person"
+        android:iconTint="@color/white"
+        android:title="@string/my_profile" />
+    <item
+        android:id="@+id/nav_payment"
+        android:icon="@drawable/paymenthistory"
+        android:iconTint="@color/white"
+        android:title="@string/payment_history" />
+    <item
+        android:id="@+id/nav_FAQ"
+        android:icon="@drawable/faq"
+        android:iconTint="@color/white"
+        android:title="@string/faq" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/about"
+        android:iconTint="@color/white"
+        android:title="@string/about_flexline" />
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/privacypolicy"
+        android:iconTint="@color/white"
+        android:title="@string/privacy_policy" />
+    <item
+        android:id="@+id/nav_delete"
+        android:icon="@drawable/deleteaccount"
+        android:iconTint="@color/white"
+        android:title="@string/delete_account" />
+    <item
+        android:id="@+id/nav_support"
+        android:icon="@drawable/contactus"
+        android:iconTint="@color/white"
+        android:title="@string/need_support" />
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/signout"
+        android:iconTint="@color/white"
+        android:title="@string/sign_out" />
+
+</menu>

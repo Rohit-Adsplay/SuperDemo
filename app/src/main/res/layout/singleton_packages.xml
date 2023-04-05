@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/textbg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/monthly"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/text_title_here"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/point_1_npoint2_npoint_3"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.5"
+        android:background="@drawable/textbg"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/_10_monthly"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
